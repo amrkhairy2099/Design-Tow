@@ -1,0 +1,143 @@
+*{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:root {
+   --main-transition: 0.3s;
+}
+nav {
+   background-image: linear-gradient(to right, #a517ba ,#5f1782);
+}
+nav img {
+   height: 40px;
+   
+}
+nav .navbar-toggler:focus{
+   box-shadow: none;
+}
+nav button .fa-bars {
+   color: #FFF;
+} 
+.navbar {
+   position: sticky;
+   top: 0;
+   z-index: 10; 
+}
+.navbar-nav  ul li {
+   color: #FFF;
+   padding: 0 10px;
+}
+.navbar-nav  ul li a {
+   text-decoration: none;
+   color: #FFF;
+   transition: var(--main-transition);
+   opacity: 0.6;
+}
+.navbar-nav  ul li a:hover {
+   opacity: 1;
+}
+/* End Nav Bar */
+/* start Banner */
+.banner {
+   position: relative;
+   height: 110vh;
+   background-image: linear-gradient(to right, #a517ba ,#5f1782);
+}
+.banner .info img {
+   width: 50px;
+   margin-right: 20px;
+}
+.banner a {
+   text-decoration: none; 
+   transition: var(--main-transition);
+}
+.banner a:hover {
+   opacity: 1 !important;
+}
+.banner .img-bottom {
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+}
+/* End Banner */
+/* Start services */
+.services .btn {
+   box-shadow: none;
+   padding: 10px 25px;
+   border: none;
+   background-image: linear-gradient(to right, #a517ba ,#5f1782);
+   transition: var(--main-transition);
+}
+.services .btn:hover {
+   color: #FFF !important;
+}
+.about-us {}
+/* End About us */
+/* Start Testimonials */
+.testi .user {
+   border-left: 2px solid #5f1782;
+}
+.testi .user img {
+   width: 60px;
+   height: 60px;
+}
+/* End Testimonials */
+/* Start Socail Media */
+.socail img {
+   width: 80px;
+   transition: var(--main-transition);
+}
+.socail a:hover img {
+   transform: translateY(-10px);
+}
+/* End Socail Media */
+/* Start Footer */
+footer {
+   background-image: linear-gradient(to right, #a517ba ,#5f1782);
+}
+footer a {
+   text-decoration: none;
+}
+footer a svg {
+   width: 25px;
+   /* height: 30px !important; */
+   padding: 4px; 
+   
+}
+footer input:focus {
+   outline: none;
+}
+footer button {
+   background-image: linear-gradient(to bottom, #a517ba ,#5f1782);
+   box-shadow: none;
+   border-radius: none;
+   transition: var(--main-transition); 
+}
+footer button:hover {
+   color: #FFF !important;
+}
+footer hr {
+   background-color: #FFF;
+}
+/* End Footer */
+/* Freamwork */
+.title::before {
+   content: "";
+   background-color: #7b1798;
+   height: 5px;
+   width: 200px;
+   margin: 0 auto;
+   display: block;
+   transform: translateY(66px);
+}
+.title::after {
+   content: "";
+   background-color: #7b1798;
+   height: 9px;
+   width: 50px;
+   margin: 0 auto 38px;
+   display: block;
+   transform: translateY(11px);
+}
+/* Freamwork */
